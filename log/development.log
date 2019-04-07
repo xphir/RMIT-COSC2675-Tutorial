@@ -58,3 +58,47 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 917ms (Views: 397.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2019-04-07 22:23:16 +1000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 812ms (Views: 280.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-07 22:25:12 +1000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (177.4ms)
+Completed 500 Internal Server Error in 703ms
+
+
+  
+ActionView::Template::Error (The asset "rails.png" is not present in the asset pipeline.):
+    10:   <%= link_to "Sign up now!", '#', class: "btn btn-lg btn-primary" %>
+    11: </div>
+    12: 
+    13: <%= link_to image_tag("rails.png", alt: "Rails logo"),
+    14:             'http://rubyonrails.org/' %>
+  
+app/views/static_pages/home.html.erb:13:in `_app_views_static_pages_home_html_erb___1946821299040489931_70368265344440'
+Started GET "/" for 127.0.0.1 at 2019-04-07 22:25:48 +1000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (312.8ms)
+Completed 200 OK in 907ms (Views: 373.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-07 22:27:48 +1000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (3455.8ms)
+Completed 200 OK in 4092ms (Views: 3563.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-04-07 22:30:42 +1000
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1942.6ms)
+Completed 200 OK in 2599ms (Views: 2077.5ms)
+
+
